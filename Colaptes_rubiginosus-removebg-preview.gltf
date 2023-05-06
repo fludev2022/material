@@ -1,0 +1,156 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "ModelConverterX"
+  },
+  "extensionsUsed": [
+    "ASOBO_material_day_night_switch"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node0",
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "node1",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "part000"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3052,
+      "type": "VEC3",
+      "min": [
+        4.7661099433898926,
+        162.82376098632813,
+        -2.9999999242136255E-05
+      ],
+      "max": [
+        27.077159881591797,
+        169.39285278320313,
+        14.942350387573242
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3052,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3052,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 7560,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material00",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "combinación de capa 1 - textura difusión"
+    }
+  ],
+  "images": [
+    {
+      "uri": "combinación de capa 1 - textura difusión.psd"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 30240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30240,
+      "byteLength": 36624,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 66864,
+      "byteLength": 36624,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 103488,
+      "byteLength": 24416,
+      "byteStride": 8
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 127904,
+      "uri": "Colaptes_rubiginosus-removebg-preview.bin"
+    }
+  ]
+}
